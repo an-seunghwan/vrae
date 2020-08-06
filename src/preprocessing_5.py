@@ -255,7 +255,7 @@ def user_df_generator():
         user_df = user_df[var_filter]
 
         # missing values to 0 (None, nan)
-        # user_df = user_df.fillna(-1)
+        user_df = user_df.fillna(-1)
         i += 1
         yield user_df
 #%%
