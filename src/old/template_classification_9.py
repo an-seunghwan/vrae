@@ -48,7 +48,7 @@ print(check_output(["ls", "./data"]).decode("utf8"))
 data loading
 '''
 '''barycenter(template) data'''
-body = pd.read_csv('./data/body_template.csv')
+body = pd.read_csv('./data/barycenter_body.csv')
 body.head()
 body.columns
 
